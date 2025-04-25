@@ -36,39 +36,41 @@
       }
       .lista-meyer-digico {
         margin-left: 143px;
-        width: 165px;
+        margin-right: 2px;
+        width: 180px;
         font-size: 10px;
         color: #777;
-        list-style: none;
         padding: 0;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap: 5px; /* Espacio entre elementos */
+        white-space: nowrap;
       }
       .lista-marcas-1 {
-        width: 330px;
+        width: 400px;
         font-size: 10px;
         color: #777;
-        list-style: none;
         padding: 0;
         display: flex;
-        flex-wrap: wrap;
-        margin-right: 6px;
+        flex-wrap: nowrap;
+        margin-right: 2px;
         gap: 4px; /* Espacio entre elementos */
+        white-space: nowrap;
       }
       .lista-marcas-2 {
-        width: 350px;
+        width: 450px;
         font-size: 10px;
         color: #777;
-        list-style: none;
         padding: 0;
         display: flex;
-        flex-wrap: wrap;
-        margin-right: 6px;
+        flex-wrap: nowrap;
+        margin-right: 2px;
         gap: 4px; /* Espacio entre elementos */
+        white-space: nowrap;
       }
       .marca {
-        display: table-row;
+        display: inline-block;
+        margin-right: 4px;
       }
       .social-icon {
         height: 12px;
@@ -113,32 +115,32 @@
             />
           </a>
           <p></p>
-          <ul class="lista-meyer-digico">
-            <li class="marca">Meyer Sound</li>
-            <li class="marca">DiGiCo</li>
-          </ul>
-          <ul class="lista-marcas-1">
-            <li class="marca">OptoCore</li>
-            <li class="marca">Blacktrax</li>
-            <li class="marca">Whirlwind</li>
-            <li class="marca">Waves</li>
-            <li class="marca">Harvey</li>
-            <li class="marca">Furman</li>
-            <li class="marca">Auvitran</li>
-            <li class="marca">Link</li>
-            <li class="marca">Remic</li>
-          </ul>
-          <ul class="lista-marcas-2">
-            <li class="marca">ATB</li>
-            <li class="marca">TEQSAS</li>
-            <li class="marca">KLANG</li>
-            <li class="marca">Point Source</li>
-            <li class="marca">FiberFox</li>
-            <li class="marca">Atlas</li>
-            <li class="marca">Sony</li>
-            <li class="marca">Sound Devices</li>
-            <li class="marca">Luminex</li>
-          </ul>
+          <p class="lista-meyer-digico">
+            <span class="marca">Meyer Sound</span>
+            <span class="marca">DiGiCo</span>
+          </p>
+          <p class="lista-marcas-1">
+            <span class="marca">OptoCore</span>
+            <span class="marca">Blacktrax</span>
+            <span class="marca">Whirlwind</span>
+            <span class="marca">Waves</span>
+            <span class="marca">Harvey</span>
+            <span class="marca">Furman</span>
+            <span class="marca">Auvitran</span>
+            <span class="marca">Link</span>
+            <span class="marca">Remic</span>
+          </p>
+          <p class="lista-marcas-2">
+            <span class="marca">ATB</span>
+            <span class="marca">TEQSAS</span>
+            <span class="marca">KLANG</span>
+            <span class="marca">Point Source</span>
+            <span class="marca">FiberFox</span>
+            <span class="marca">Atlas</span>
+            <span class="marca">Sony</span>
+            <span class="marca">Sound Devices</span>
+            <span class="marca">Luminex</span>
+          </p>
         </td>
         <td class="separador" style="height: auto; vertical-align: middle"></td>
         <td style="padding: 0; vertical-align: middle">
