@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .nombre {
+        font-weight: bold;
+        font-size: 16px;
+        color: #000000;
+        margin: 0;
+      }
+      .departamento {
+        font-size: 12px;
+        color: #000000;
+        line-height: 16px;
+        margin: 0;
+      }
+      .telefono,
+      .email,
+      .web,
+      .direccion {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        color: #000000;
+        text-decoration: none;
+        line-height: 16px;
+        display: block; /* Para que cada dato ocupe una línea */
+      }
+      .separador {
+        border-left: 1px solid #2772b4;
+        margin-right: 30px;
+        margin-left: 0px;
+        height: auto;
+      }
+      .marcas-container {
+        font-size: 10px;
+        color: #777;
+      }
+      .lista-marcas {
+        list-style: none;
+        padding: 0;
+        margin: 5px 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px 10px; /* Espacio entre elementos */
+      }
+      .marca {
+        display: inline-block;
+      }
+      .social-icon {
+        height: 24px;
+        width: 24px;
+        vertical-align: middle;
+      }
+      .firma-wrapper {
+        display: flex;
+      }
+      .columnas {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #000000;
+        line-height: 0.75;
+        margin-left: 15px;
+      }
+      .columnas p {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="vertical-align: middle; border-collapse: collapse">
+      <tr>
+        <td style="padding: 0; vertical-align: middle">
+          <img
+            src="https://rmsproaudio.com/wp-content/uploads/2025/04/logos-horizontal.png"
+            alt="Logo de RMS Proaudio"
+            role="presentation"
+            style="width: 310px; height: auto; display: block"
+          />
+        </td>
+        <td class="separador" style="height: auto; vertical-align: middle"></td>
+        <td style="padding: 0; vertical-align: middle">
+          <div class="columnas" style="white-space: nowrap">
+            <p class="nombre">Daniel del Castillo</p>
+            <p class="departamento">Dpto. Informática</p>
+            <p class="telefono" style="display: flex; align-items: center">
+              <img
+                src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/phone-icon-2x.png"
+                color="#2772b4"
+                alt="mobilePhone"
+                width="15"
+                height="15"
+                class="contact-info__ContactLabelIcon-sc-mmkjr6-0 cnkwri"
+                style="margin-right: 5px; background-color: rgb(39, 114, 180)"
+              />
+              <a href="tel:+34 670 109 209" class="telefono">+34 670 109 209</a>
+              <span style="margin: 0 10px">|</span>
+              <img
+                src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/phone-icon-2x.png"
+                color="#2772b4"
+                alt="mobilePhone"
+                width="15"
+                height="15"
+                class="contact-info__ContactLabelIcon-sc-mmkjr6-0 cnkwri"
+                style="margin-right: 5px; background-color: rgb(39, 114, 180)"
+              />
+              <a href="tel:955 542 111" class="telefono"> 955 542 111 </a>
+            </p>
+            <p class="email" style="display: flex; align-items: center">
+              <img
+                src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/email-icon-2x.png"
+                color="#2772b4"
+                alt="email"
+                width="15"
+                height="15"
+                class="contact-info__ContactLabelIcon-sc-mmkjr6-0 cnkwri"
+                style="margin-right: 5px; background-color: rgb(39, 114, 180)"
+              />
+              <a href="mailto:dani@rmsproaudio.com" class="email"
+                >dani@rmsproaudio.com</a
+              >
+            </p>
+            <p class="web" style="display: flex; align-items: center">
+              <img
+                src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/link-icon-2x.png"
+                color="#2772b4"
+                alt="website"
+                width="15"
+                height="15"
+                class="contact-info__ContactLabelIcon-sc-mmkjr6-0 cnkwri"
+                style="margin-right: 5px; background-color: rgb(39, 114, 180)"
+              />
+              <a href="https://www.rmsproaudio.com" target="_blank" class="web"
+                >RMS Proaudio</a
+              >
+            </p>
+
+            <p class="direccion" style="display: flex; align-items: center">
+              <img
+                src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/address-icon-2x.png"
+                color="#2772b4"
+                alt="address"
+                width="15"
+                height="15"
+                class="contact-info__ContactLabelIcon-sc-mmkjr6-0 cnkwri"
+                style="margin-right: 5px; background-color: rgb(39, 114, 180)"
+              />
+              <span>
+                SEVILLA Teatro Cartuja, Avda Leonardo da Vinci, 11, 41092
+                <br />
+                MADRID C/Luis I, n60. Nave 15-16 Vallecas II, 28031
+              </span>
+            </p>
+            <p
+              class="social-icon"
+              style="display: flex; align-items: center; gap: 10px"
+            >
+              <a
+                href="https://www.facebook.com/people/RMS-proaudio/61553142369999/"
+                color="#2772b4"
+                class="social-links__LinkAnchor-sc-py8uhj-2 hBVWAh"
+                style="
+                  display: inline-block;
+                  padding: 0px;
+                  background-color: rgb(39, 114, 180);
+                "
+                ><img
+                  src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/facebook-icon-2x.png"
+                  alt="facebook"
+                  color="#2772b4"
+                  height="24"
+                  class="social-links__LinkImage-sc-py8uhj-1 hSTSwA"
+                  style="
+                    background-color: rgb(39, 114, 180);
+                    max-width: 135px;
+                    display: block;
+                  "
+              /></a>
+              <a
+                href="https://www.linkedin.com/company/rms-proaudio/posts/?feedView=all"
+                color="#2772b4"
+                class="social-links__LinkAnchor-sc-py8uhj-2 hBVWAh"
+                style="
+                  display: inline-block;
+                  padding: 0px;
+                  background-color: rgb(39, 114, 180);
+                "
+                ><img
+                  src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/linkedin-icon-2x.png"
+                  alt="linkedin"
+                  color="#2772b4"
+                  height="24"
+                  class="social-links__LinkImage-sc-py8uhj-1 hSTSwA"
+                  style="
+                    background-color: rgb(39, 114, 180);
+                    max-width: 135px;
+                    display: block;
+                  "
+              /></a>
+              <a
+                href="http://instagram.com/rmsproaudio/"
+                color="#2772b4"
+                class="social-links__LinkAnchor-sc-py8uhj-2 hBVWAh"
+                style="
+                  display: inline-block;
+                  padding: 0px;
+                  background-color: rgb(39, 114, 180);
+                "
+                ><img
+                  src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/instagram-icon-2x.png"
+                  alt="instagram"
+                  color="#2772b4"
+                  height="24"
+                  style="
+                    background-color: rgb(39, 114, 180);
+                    max-width: 135px;
+                    display: block;
+                  "
+              /></a>
+            </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
