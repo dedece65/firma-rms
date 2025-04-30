@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
+      table {
+        width: 450px;
+        margin-bottom: 10px;
+      }
       .nombre {
         font-weight: bold;
         font-size: 14px;
@@ -25,7 +29,6 @@
         font-size: 10px;
         color: #000000;
         text-decoration: none;
-        line-height: 16px;
         display: block; /* Para que cada dato ocupe una línea */
       }
       .separador {
@@ -33,44 +36,6 @@
         margin-right: 22px;
         margin-left: 0px;
         height: auto;
-      }
-      .lista-meyer-digico {
-        margin-left: 143px;
-        margin-right: 2px;
-        width: 180px;
-        font-size: 10px;
-        color: #777;
-        padding: 0;
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 5px; /* Espacio entre elementos */
-        white-space: nowrap;
-      }
-      .lista-marcas-1 {
-        width: 400px;
-        font-size: 10px;
-        color: #777;
-        padding: 0;
-        display: flex;
-        flex-wrap: nowrap;
-        margin-right: 2px;
-        gap: 4px; /* Espacio entre elementos */
-        white-space: nowrap;
-      }
-      .lista-marcas-2 {
-        width: 450px;
-        font-size: 10px;
-        color: #777;
-        padding: 0;
-        display: flex;
-        flex-wrap: nowrap;
-        margin-right: 2px;
-        gap: 4px; /* Espacio entre elementos */
-        white-space: nowrap;
-      }
-      .marca {
-        display: inline-block;
-        margin-right: 4px;
       }
       .social-icon {
         height: 12px;
@@ -86,13 +51,14 @@
         font-family: Arial, sans-serif;
         font-size: 10px;
         color: #000000;
-        line-height: 0.75;
+        line-height: 0.01;
         margin-left: 11px;
       }
       .columnas p {
         margin-top: 2px;
         margin-bottom: 2px;
         margin: 5px 0;
+        line-height: 1.2;
       }
     </style>
   </head>
@@ -106,47 +72,21 @@
               alt="Logo de RMS Proaudio"
               role="presentation"
               style="
-                width: 150px;
+                width: 130px;
                 height: auto;
                 display: block;
-                margin-left: 103px;
-                margin-bottom: 11px;
+                margin-right: 11px;
               "
             />
           </a>
-          <p></p>
-          <p class="lista-meyer-digico">
-            <span class="marca">Meyer Sound</span>
-            <span class="marca">DiGiCo</span>
-          </p>
-          <p class="lista-marcas-1">
-            <span class="marca">OptoCore</span>
-            <span class="marca">Blacktrax</span>
-            <span class="marca">Whirlwind</span>
-            <span class="marca">Waves</span>
-            <span class="marca">Harvey</span>
-            <span class="marca">Furman</span>
-            <span class="marca">Auvitran</span>
-            <span class="marca">Link</span>
-            <span class="marca">Remic</span>
-          </p>
-          <p class="lista-marcas-2">
-            <span class="marca">ATB</span>
-            <span class="marca">TEQSAS</span>
-            <span class="marca">KLANG</span>
-            <span class="marca">Point Source</span>
-            <span class="marca">FiberFox</span>
-            <span class="marca">Atlas</span>
-            <span class="marca">Sony</span>
-            <span class="marca">Sound Devices</span>
-            <span class="marca">Luminex</span>
-          </p>
         </td>
         <td class="separador" style="height: auto; vertical-align: middle"></td>
         <td style="padding: 0; vertical-align: middle">
           <div class="columnas" style="white-space: nowrap">
-            <p class="nombre">Daniel del Castillo</p>
-            <p class="departamento">Dpto. Informática</p>
+            <p class="nombre" style="margin-bottom: 0px">Daniel del Castillo</p>
+            <p class="departamento" style="margin-top: 0px">
+              Dpto. Informática
+            </p>
             <p class="telefono" style="display: flex; align-items: center">
               <img
                 src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/phone-icon-2x.png"
@@ -184,7 +124,7 @@
                 >dani@rmsproaudio.com</a
               >
             </p>
-            <p class="web" style="display: flex; align-items: center">
+            <!-- <p class="web" style="display: flex; align-items: center">
               <img
                 src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/link-icon-2x.png"
                 color="#2772b4"
@@ -197,7 +137,7 @@
               <a href="https://www.rmsproaudio.com" target="_blank" class="web"
                 >RMS Proaudio</a
               >
-            </p>
+            </p> -->
 
             <p class="direccion" style="display: flex; align-items: center">
               <img
@@ -283,6 +223,16 @@
               /></a>
             </p>
           </div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" style="text-align: center; padding-top: 10px">
+          <a href="https://www.rmsproaudio.com" target="_blank">
+            <img
+              src="https://rmsproaudio.com/wp-content/uploads/2025/04/BANNER_FIRMA.png"
+              alt="Banner Firma"
+            />
+          </a>
         </td>
       </tr>
     </table>
